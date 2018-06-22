@@ -1,0 +1,14 @@
+<view style='margin-top:{{MT}}px;margin-bottom:{{MB}}px;'>
+  <scroll-view scroll-x="true">
+    <view class='goodslist-nav' style='width:{{navWidth}}rpx'>
+      <block wx:for="{{data}}" wx:key="index">
+        <view class='goodslist-item{{index==now?" active":""}}' bindtap='changeItem' data-id="{{index}}">{{item}}</view>
+      </block>
+    </view>
+  </scroll-view>
+  <view class='goodslist-inner' style='width:{{innerWidth}}rpx;left:{{innerLeft}}rpx;'>
+    <block wx:for="{{data}}" wx:key="index">
+      <view>{{item}}</view>
+    </block>
+  </view>
+</view>

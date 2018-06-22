@@ -1,0 +1,11 @@
+/* components/swiper/swiper.wxss */
+swiper{
+  width: 750rpx;
+  /* position: absolute;  */
+  /* left: 0; */
+  /* margin-bottom: 10rpx; */
+}
+swiper image{
+  width: 750rpx;
+  vertical-align: top;
+}

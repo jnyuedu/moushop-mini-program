@@ -1,0 +1,31 @@
+.goodslist-nav{
+  width: fit-content;
+  /* border: 1px solid red; */
+}
+.goodslist-nav::after,.goodslist-inner::after{
+  clear: both;
+  display: block;
+  content: " "
+}
+.goodslist-nav view{
+  float: left;
+  margin: 0 15rpx; 
+  width:120rpx;
+  display: bolck;
+  border-bottom: 2px;
+  color: #aaaaaa;
+  padding: 14rpx 0rpx;
+  text-align: center;
+  font-size: 25rpx;
+}
+.goodslist-nav view.active{
+  border-bottom: 2px solid #ff4400;
+  color: #ff4400;
+}
+.goodslist-inner{
+  position: relative;
+}
+.goodslist-inner view{
+  width:750rpx;
+  float: left;
+}

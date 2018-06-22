@@ -1,0 +1,7 @@
+<!--components/imagee/imagee.wxml-->
+<view style='margin-top:{{MT}}px;margin-bottom:{{MB}}px;'>
+  <block wx:for="{{imgUrls}}" wx:key="{{key}}">
+    <image style='height:{{height}}px' src="{{item}}" class='img'></image>
+  </block>
+</view>
+

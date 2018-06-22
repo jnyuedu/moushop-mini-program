@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "swipper": "/components/swipper/swipper",
+    "imagee": "/components/imagee/imagee",
+    "goodslist": "/components/goodslist/goodslist",
+    "column": "/components/column/column",
+    "collage": "/components/collage/collage",
+    "collageTwo": "/components/collageTwo/collageTwo",
+    "seckill": "/components/seckill/seckill"
+  }
+}

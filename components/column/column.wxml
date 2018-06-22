@@ -1,0 +1,8 @@
+<view class='column-wrap' style='margin-top:{{MT}}px;margin-bottom:{{MB}}px;'>
+  <block wx:for="{{column}}" wx:key="{{key}}">
+    <view class='column-item'>
+      <image src="{{item.img}}"></image>
+      <text style='color:{{textColor}}'>{{item.text}}</text>
+    </view>
+  </block>
+</view>

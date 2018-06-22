@@ -1,0 +1,48 @@
+<view style='margin-top:{{MT}}px;margin-bottom:{{MB}}px;'>
+  <scroll-view scroll-x="true">
+    <view class='seckill-nav' style='width:{{navWidth}}rpx'>
+      <block wx:for="{{data}}" wx:key="index">
+        <view class='{{index==now?" active":""}}' bindtap='changeItem' data-id="{{index}}">
+          <text data-id="{{index}}">{{item.nav.time}}</text>
+          <text style='font-size:21rpx' data-id="{{index}}">{{item.nav.state}}</text>
+        </view>
+      </block>
+    </view>
+  </scroll-view>
+  <view class='seckill-inner' style='width:{{innerWidth}}rpx;left:{{innerLeft}}rpx;'>
+    <block wx:for="{{data}}" wx:key="index">
+      <view class='item-wrap'>
+        <block wx:for="{{item.inner}}" wx:key="{{key}}">
+          <view class='seckill-item'>
+            <!-- <image src="{{item.img}}"></image> -->
+            <image ></image>
+            <view>
+              <text class='title'>{{item.title}}</text>
+              <text class='subtitle'>{{item.subTitle}}</text>
+              <view class='endtime'>
+                <text style='color:#ff5757'>
+                  <text class='time'>7</text>
+                  <text class='time'>7</text>
+                  <text class='time'>7</text>
+                  <text class='time'>7</text>
+                </text>
+                <text>后结束抽奖</text>
+              </view>
+              <view style='display:flex;justify-content: space-between;'>
+                <view style='font-size:24rpx;color:#ff4400'>￥
+                  <text style='font-size:30rpx;'>{{item.price}}</text>
+                  <text style='font-size:24rpx;color:#c5c5c5;text-decoration:line-through;'>￥{{item.oldPrice}}</text>
+                </view>
+                <view>
+                  <button>
+                    <i class="iconfont icon-clock" style="vertical-align: middle;margin-right:10rpx;"></i>提醒我
+                  </button>
+                </view>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+</view>
