@@ -19,38 +19,46 @@ Component({
     column:{
       type: Array,
       value: [
-        {
-          img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
-          text: "栏目名称1"
-        },
-        {
-          img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
-          text: "栏目名称2"
-        },
-        {
-          img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
-          text: "栏目名称3"
-        },
-        {
-          img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
-          text: "栏目名称4"
-        },
-        {
-          img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
-          text: "栏目名称5"
-        },
-        {
-          img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
-          text: "栏目名称6"
-        },
-        {
-          img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
-          text: "栏目名称7"
-        },
-        {
-          img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
-          text: "栏目名称8"
-        }
+        [
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称1"
+          },
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称2"
+          },
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称3"
+          },
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称4"
+          },
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称5"
+          }
+        ],
+        [
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称5"
+          },
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称6"
+          },
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称7"
+          },
+          {
+            img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+            text: "栏目名称8"
+          }
+        ]
       ]
     }
   },
@@ -59,7 +67,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    nub:[5,4]
   },
 
   /**

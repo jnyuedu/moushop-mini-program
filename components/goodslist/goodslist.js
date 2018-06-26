@@ -14,7 +14,165 @@ Component({
     },
     data:{
       type:Array,
-      value: ["全部商品", "精品男装1", "精品男装2", "精品男装3", "精品男装4", "精品男装5"]
+      value: [
+        // "全部商品", "精品男装1", "精品男装2", "精品男装3", "精品男装4", "精品男装5"
+        {
+          nav: {
+            title:"全部商品"
+          },
+          inner: [
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            }
+          ]
+        },
+        {
+          nav: {
+            title: "精品男装1"
+          },
+          inner: [
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            }
+          ]
+        },
+        {
+          nav: {
+            title: "精品男装2"
+          },
+          inner: [
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            }
+          ]
+        },
+        {
+          nav: {
+            title: "精品男装3"
+          },
+          inner: [
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            }
+          ]
+        }
+        , {
+          nav: {
+            title: "精品男装4"
+          },
+          inner: [
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            }
+          ]
+        },
+        {
+          nav: {
+            title: "精品男装5"
+          },
+          inner: [
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            },
+            {
+              img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
+              title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              price: "99.00",
+              nub: 999
+            }
+          ]
+        }
+      ]
     } 
   },
 
@@ -36,7 +194,7 @@ Component({
     })
   },
   ready:function(){
-   
+    // this.queryMultipleNodes()
   },
 
   /**
@@ -50,5 +208,13 @@ Component({
         now
       })
     },
+  },
+  queryMultipleNodes: function () {
+    var query = wx.createSelectorQuery().in(this)
+    query.select('.goodslist-item').boundingClientRect(function (res) {
+      res.top // 这个组件内 #the-id 节点的上边界坐标
+    }).exec(function(we){
+      console.log(we)
+    })
   }
 })

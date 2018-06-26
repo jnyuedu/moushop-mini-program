@@ -27,10 +27,11 @@
   position: relative;
 }
 .item-wrap{
-  width:690rpx;
+  width:750rpx;
   float: left;
   padding: 30rpx;
   overflow: hidden;
+  box-sizing: border-box;
 }
 .seckill-item{
   margin-bottom: 30rpx;
@@ -45,17 +46,24 @@
   flex: 1;
 }
 .seckill-item>view{
-  flex: 1;
+  /* flex: 1; */
+  width: 460rpx;
+  display: flex;
+  flex-direction: column;
 }
 .seckill-item .title{
+  display: block;
   color: #3a3f42;
   font-size: 28rpx;
+  white-space: nowrap; 
+  width: 460rpx;
   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis; 
 }
 .seckill-item .subtitle{
   color: #cccccc;
+  width: 460rpx;
+  display: block;
   font-size: 21rpx;
   overflow: hidden;
   white-space: nowrap;
@@ -64,20 +72,6 @@
 .price{
   color: #bbbbbb;
   font-size: 24rpx;
-}
-.endtime{
-  font-size: 22rpx;
-  display: flex;
-  color: #bbbbbb;
-  margin:16rpx 0;
-}
-.endtime .time{
-  background: #ffb5b6;
-  font-size: 20rpx;
-  padding: 4rpx 8rpx;
-  margin: 0 4rpx;
-  border-radius: 8rpx;
-  color: white;
 }
 button{
   line-height: 46rpx;

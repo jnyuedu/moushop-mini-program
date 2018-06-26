@@ -1,5 +1,5 @@
-<view style='margin-top:{{MT}}px;margin-bottom:{{MB}}px;'>
-  <scroll-view scroll-x="true">
+<view style='margin-top:{{MT}}px;margin-bottom:{{MB}}px;width:750rpx;overflow:hidden;'>
+  <scroll-view scroll-x="true" style="{{options}}">
     <view class='seckill-nav' style='width:{{navWidth}}rpx'>
       <block wx:for="{{data}}" wx:key="index">
         <view class='{{index==now?" active":""}}' bindtap='changeItem' data-id="{{index}}">
@@ -15,19 +15,19 @@
         <block wx:for="{{item.inner}}" wx:key="{{key}}">
           <view class='seckill-item'>
             <!-- <image src="{{item.img}}"></image> -->
-            <image ></image>
+            <image src="{{item.img}}"></image>
             <view>
-              <text class='title'>{{item.title}}</text>
-              <text class='subtitle'>{{item.subTitle}}</text>
-              <view class='endtime'>
-                <text style='color:#ff5757'>
-                  <text class='time'>7</text>
-                  <text class='time'>7</text>
-                  <text class='time'>7</text>
-                  <text class='time'>7</text>
-                </text>
-                <text>后结束抽奖</text>
+              <view>
+                <text class='title'>{{item.title}}</text>
               </view>
+              <view>
+                <text class='subtitle'>{{item.subTitle}}</text>
+              </view>
+               <view style='color:#fc3b32;font-size:21rpx;margin-bottom:24rpx;margin-top:10rpx;'> 
+                <text>
+                  {{item.people}}人已经关注 | 今晚{{item.time}}点开抢
+                </text>
+               </view> 
               <view style='display:flex;justify-content: space-between;'>
                 <view style='font-size:24rpx;color:#ff4400'>￥
                   <text style='font-size:30rpx;'>{{item.price}}</text>

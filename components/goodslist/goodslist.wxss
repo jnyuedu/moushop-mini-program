@@ -1,6 +1,6 @@
 .goodslist-nav{
   width: fit-content;
-  /* border: 1px solid red; */
+  background: #f2f2f2;
 }
 .goodslist-nav::after,.goodslist-inner::after{
   clear: both;
@@ -25,7 +25,34 @@
 .goodslist-inner{
   position: relative;
 }
-.goodslist-inner view{
+.goodslist-inner>view{
   width:750rpx;
   float: left;
+  padding: 30rpx;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.goodslist-item{
+  width:334rpx;
+  margin-bottom: 30rpx;
+}
+.goodslist-item image{
+  height: 334rpx;
+  width: 334rpx;
+  border-radius: 18rpx;
+}
+.title{
+  color: #222222;
+  font-size: 25rpx;
+  display: -webkit-box !important;
+  overflow: hidden;
+  
+  text-overflow: ellipsis;
+  word-break: break-all;
+  
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }

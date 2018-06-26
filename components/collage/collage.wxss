@@ -17,7 +17,7 @@
 .info .title{
   color: #3a3f42;
   font-size: 24rpx;
-   display: -webkit-box !important;
+  display: -webkit-box !important;
   overflow: hidden;
   
   text-overflow: ellipsis;

@@ -1,4 +1,4 @@
 .img{
-  width: 750rpx;
+  width: 100%; 
   display: block;
 }

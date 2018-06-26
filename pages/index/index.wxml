@@ -1,11 +1,11 @@
 <view>
   <block wx:for="{{dataArr}}" wx:key="{{index}}">
-    <imagee wx:if="{{item.type=='imagee'}}"  MT="20" MB="40"></imagee>
-    <swipper wx:if="{{item.type=='swipper'}}"  MT="20" MB="40"></swipper>
-    <goodslist wx:if="{{item.type=='goodslist'}}" MT="20" MB="40"></goodslist>
-    <column wx:if="{{item.type=='column'}}" textColor="pink" MT="20" MB="40"></column>
-    <collage wx:if="{{item.type=='collage'}}" MT="20" MB="40"></collage>
-    <collageTwo wx:if="{{item.type=='collageTwo'}}" MT="20" MB="40"></collageTwo>  
-    <seckill wx:if="{{item.type=='seckill'}}" MT="20" MB="40"></seckill>  
+    <imagee class="imagee" wx:if="{{item.type=='imagee'}}"  MT="20" MB="40"></imagee> 
+    <swipper class="swipper" wx:if="{{item.type=='swipper'}}"  MT="20" MB="40"></swipper>
+    <goodslist class="goodslist" style='{{item.fix?"position:fixed;top:0":""}}' wx:if="{{item.type=='goodslist'}}" MT="20" MB="40"></goodslist>
+    <column class="column" wx:if="{{item.type=='column'}}" textColor="pink" MT="20" MB="40"></column>
+    <collage class="collage" wx:if="{{item.type=='collage'}}" MT="20" MB="40"></collage>
+    <collageTwo class="collageTwo" wx:if="{{item.type=='collageTwo'}}" MT="20" MB="40"></collageTwo>  
+    <seckill class="seckill" options='{{scrollTop>=item.top&&scrollTop<=(item.top+item.height)?"position:fixed;top:0;z-index:9":""}}' wx:if="{{item.type=='seckill'}}" MT="20" MB="40"></seckill>  
   </block>
 </view>

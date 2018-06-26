@@ -4,6 +4,10 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    options:{
+      type:String,
+      value:""
+    },
     MT: {
       type: Number,
       value: 0
@@ -27,18 +31,17 @@ Component({
               subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.02",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             },
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.03",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             }
           ]
         },
@@ -51,20 +54,20 @@ Component({
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.01",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             },
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.01",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             }
           ]
         },
@@ -77,20 +80,20 @@ Component({
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.01",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             },
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.01",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             }
           ]
         },
@@ -103,20 +106,20 @@ Component({
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.01",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             },
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.01",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             }
           ]
         }
@@ -129,20 +132,20 @@ Component({
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.01",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people: 999,
+              time: 12
             },
             {
               img: "http://img.hb.aicdn.com/e0471e4561fe4911aeb79caec813fe090f5d4dfa8608-3lYPAu_sq320",
               title: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
+              subTitle: "VIVO X21全面旗舰手机刘海屏幕智能全网通全面旗舰手机刘海屏幕智能....",
               price: "0.01",
               oldPrice: "99.00",
-              endTime: 123412,
-              need: 10,
-              all: 18
+              people:999,
+              time:12
             }
           ]
         }
